@@ -1,0 +1,98 @@
+/* ─────────────────────────────────────────
+   App.css  — component overrides
+   All global tokens live in index.css
+───────────────────────────────────────── */
+
+/* ── Navbar dark-bg variant (when page hero has dark overlay) ── */
+.navbar.on-dark .nav-brand,
+.navbar.on-dark .nav-link {
+  color: var(--text-invert);
+}
+
+.navbar.on-dark .nav-link { color: rgba(247,245,240,0.72); }
+.navbar.on-dark .nav-link:hover,
+.navbar.on-dark .nav-link.active { color: var(--text-invert); }
+
+.navbar.on-dark.scrolled .nav-brand,
+.navbar.on-dark.scrolled .nav-link {
+  color: var(--text-primary);
+}
+
+.navbar.on-dark.scrolled .nav-link { color: var(--text-secondary); }
+
+/* ── Fullscreen slide inner layout ── */
+@media (max-width: 992px) {
+  .slide-section {
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 120px;
+    padding-bottom: 72px;
+  }
+
+  .slide-content-overlay {
+    padding-left: 0;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  .slide-overlay-hud {
+    position: relative;
+    top: 0;
+    right: 0;
+    transform: none;
+    margin: 48px auto 0;
+    max-width: 90%;
+  }
+}
+
+/* ── Vehicles overlay on mobile ── */
+@media (max-width: 992px) {
+  .vehicles-slide-overlay {
+    position: relative;
+    top: 0;
+    right: 0;
+    transform: none;
+    max-width: 90%;
+    margin: 40px auto 0;
+    max-height: none;
+    overflow-y: visible;
+  }
+}
+
+/* ── Diagnostic page (MyCar) card treatment ── */
+.vehicle-spacex-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+}
+
+.vehicle-spacex-card:hover {
+  border-color: var(--border-strong);
+  background: var(--bg-card-hover);
+}
+
+/* ── Modal backdrop tweak ── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 20, 20, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* ── Animate spin utility (for loading states) ── */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.animate-spin {
+  animation: spin 1.4s linear infinite;
+}
