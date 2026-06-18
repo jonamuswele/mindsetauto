@@ -348,11 +348,42 @@ export default function Home({ openBookingModal, setActiveTab }) {
             style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '32px' }}
           >
             {[
-              { title: 'Diagnostic OBD', desc: 'Lecture codes défauts, analyse électronique complète, rapport détaillé.', icon: <Cpu size={24} />, color: '#0D9488' },
-              { title: 'Mécanique moteur', desc: 'Distribution, joints, culasse, injection — normes constructeur.', icon: <Wrench size={24} />, color: '#0D9488' },
-              { title: 'Freinage & Suspension', desc: 'Plaquettes, disques, amortisseurs, géométrie. Sécurité priorité.', icon: <ShieldCheck size={24} />, color: '#0D9488' },
-              { title: 'Électronique & CAN-Bus', desc: 'Faisceau, BCM, multiplexage — diagnostic oscilloscope.', icon: <Sparkles size={24} />, color: '#0D9488' },
-            ].map((s, i) => (
+              {
+                title: 'Diagnostic Électronique',
+                desc: 'Analyse approfondie des systèmes électroniques et réseaux CAN-Bus. Détection précise des pannes invisibles à l\'œil nu.',
+                icon: <Cpu size={24} />,
+                color: '#0D9488'
+              },
+              {
+                title: 'Mécanique Moteur',
+                desc: 'Distribution, joint de culasse, injection, turbocompresseur — remise aux normes constructeur avec pièces d\'origine.',
+                icon: <Wrench size={24} />,
+                color: '#0D9488'
+              },
+              {
+                title: 'Freinage & Sécurité',
+                desc: 'Plaquettes, disques, étriers, liquide de frein, ABS — chaque arrêt compte, nous ne faisons aucun compromis.',
+                icon: <ShieldCheck size={24} />,
+                color: '#0D9488'
+              },
+              {
+                title: 'Suspension & Direction',
+                desc: 'Amortisseurs, triangles, rotules, géométrie, crémaillère — tenue de route et confort retrouvés.',
+                icon: <Gauge size={24} />, // or <Car />, <SlidersHorizontal />
+                color: '#0D9488'
+              },
+              {
+                title: 'Électricité Auto',
+                desc: 'Faisceaux, BCM, capteurs, alternateur, démarreur — diagnostic complet avec oscilloscope et valise multimarques.',
+                icon: <Zap size={24} />, // or <Bolt />
+                color: '#0D9488'
+              },
+              {
+                title: 'Transmission & Boîte',
+                desc: 'Boîte manuelle ou automatique, embrayage, différentiel, cardans — expertise précise et réparation sur mesure.',
+                icon: <Settings size={24} />, // or <Gear />
+                color: '#0D9488'
+              }
               <motion.div 
                 key={i}
                 variants={fadeUp}
