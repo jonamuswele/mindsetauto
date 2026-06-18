@@ -383,7 +383,7 @@ export default function Home({ openBookingModal, setActiveTab }) {
                 desc: 'Boîte manuelle ou automatique, embrayage, différentiel, cardans — expertise précise et réparation sur mesure.',
                 icon: <Settings size={24} />, // or <Gear />
                 color: '#0D9488'
-              }
+              }]}
               <motion.div 
                 key={i}
                 variants={fadeUp}
