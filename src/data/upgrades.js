@@ -1,3 +1,20 @@
+import img1 from '../assets/aero et details.jfif'
+import img2 from '../assets/chassis et direction.jfif'
+import img3 from '../assets/moteur et echappement.jfif'
+import img4 from '../assets/freinage.jfif'
+import img5 from '../assets/suspension.jfif'
+import img6 from '../assets/eclairage led.jfif'
+import img7 from '../assets/jantes et pneus.jfif'
+import img8 from '../assets/peinture et protection.jfif'
+import img9 from '../assets/insonorisation.jfif'
+import img10 from '../assets/connectivite.jfif'
+import img11 from '../assets/amplification et dep.jfif'
+import img12 from '../assets/haut parleur.jfif'
+import img13 from '../assets/parfum et ambiance.jfif'
+import img14 from '../assets/volant & pommeau.jfif'
+import img15 from '../assets/tapis & moquettes.jfif'
+import img16 from '../assets/tableau de bord.jfif'
+import img17 from '../assets/seat&hausse.jfif'
 
 export const UPGRADE_CATEGORIES = [
   {
@@ -12,7 +29,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Sièges & Housses',
         desc: 'Cuir, Alcantara, tissus techniques, chauffants/ventilés, maintien lombaire',
         // beige leather car seats interior
-        image: 'https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=400&h=300&fit=crop',
+        image: img17,
         options: [
           {
             id: 'cuir-nappa',
@@ -53,7 +70,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Tableau de bord',
         desc: 'Écrans intégrés, inserts carbone/bois, éclairage d\'ambiance programmable',
         // large infotainment screen in dashboard
-        image: 'https://images.unsplash.com/photo-1551703599-6b3e8379aa8c?w=400&h=300&fit=crop',
+        image: img16,
         options: [
           {
             id: 'ecran-12',
@@ -94,7 +111,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Tapis & Moquettes',
         desc: 'Sur-mesure, lavables, aluminium, caoutchouc 3D, isolation phonique',
         // rubber 3D floor mat with raised edges
-        image: 'https://images.unsplash.com/photo-1597007066704-67bf2068d5b2?w=400&h=300&fit=crop',
+        image: img15,
         options: [
           {
             id: 'tapis-3d',
@@ -135,7 +152,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Volant & Pommeau',
         desc: 'Cuir perforé, carbone, bois, palettes, chauffant',
         // steering wheel close-up
-        image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=400&h=300&fit=crop',
+        image: img14,
         options: [
           {
             id: 'volant-cuir',
@@ -176,7 +193,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Parfum & Ambiance',
         desc: 'Diffuseurs, ioniseurs, senteurs signature',
         // car vent air freshener clip
-        image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=400&h=300&fit=crop',
+        image: img13,
         options: [
           {
             id: 'diffuseur-hv',
@@ -220,7 +237,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Haut-parleurs',
         desc: 'Coaxiaux, composants 2/3 voies, subwoofer dissimulé sous siège',
         // car speaker cone close-up
-        image: 'https://images.unsplash.com/photo-1558389157-e4bfa5dc3e81?w=400&h=300&fit=crop',
+        image: img12,
         options: [
           {
             id: 'hp-coaxiaux',
@@ -261,7 +278,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Amplification & DSP',
         desc: 'Ampli classe D, processeur DSP, tuning acoustique cabine',
         // car amplifier with heatsink fins
-        image: 'https://images.unsplash.com/photo-1618042164219-62c820f10723?w=400&h=300&fit=crop',
+        image: img11,
         options: [
           {
             id: 'ampli-4canaux',
@@ -294,7 +311,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Connectivité',
         desc: 'CarPlay/Android Auto sans fil, DAC haut de gamme, chargeur induction',
         // Apple CarPlay interface on screen
-        image: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=400&h=300&fit=crop',
+        image: img10,
         options: [
           {
             id: 'carplay-wireless',
@@ -327,7 +344,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Insonorisation',
         desc: 'Portières, plancher, toit, pare-brise acoustique, mousse expansée',
         // butyl sound deadening sheet being applied
-        image: 'https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?w=400&h=300&fit=crop',
+        image: img9,
         options: [
           {
             id: 'insonor-portières',
@@ -371,7 +388,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Peinture & Protection',
         desc: 'Céramique, PPF, covering mat/satin/brillant, teintes exclusives',
         // ceramic coating water beading on paint surface
-        image: 'https://images.unsplash.com/photo-1607603750909-408e19385117?w=400&h=300&fit=crop',
+        image: img8,
         options: [
           {
             id: 'ceramic',
@@ -412,7 +429,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Jantes & Pneus',
         desc: 'Forgées, flow-form, profils sport/confort, TPMS intégré',
         // alloy wheel rim close-up detail
-        image: 'https://images.unsplash.com/photo-1568844401968-b7cdb0b64b16?w=400&h=300&fit=crop',
+        image: img7,
         options: [
           {
             id: 'jantes-forgées',
@@ -445,7 +462,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Éclairage LED',
         desc: 'Projecteurs matrix, signature lumineuse, feux diurnes, antibrouillard',
         // LED headlight unit close-up
-        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=400&h=300&fit=crop',
+        image: img6,
         options: [
           {
             id: 'led-matrix',
@@ -478,7 +495,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Aéro & Détails',
         desc: 'Becquet, diffuseur, bas de caisse, rétroviseurs carbone, badges',
         // carbon fiber rear spoiler close-up
-        image: 'https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=400&h=300&fit=crop',
+        image: img1,
         options: [
           {
             id: 'becquet',
@@ -522,7 +539,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Suspension',
         desc: 'Raffermie, pneumatique, pilotée, réhausse/abaissement',
         // coilover shock absorber spring assembly
-        image: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=400&h=300&fit=crop',
+        image: img5,
         options: [
           {
             id: 'combinés-filetés',
@@ -563,7 +580,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Freinage',
         desc: 'Disques percés/rainurés, étriers 4/6 pistons, plaquettes céramique',
         // big brake kit caliper and disc rotor
-        image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
+        image: img4,
         options: [
           {
             id: 'freins-avant-4p',
@@ -596,7 +613,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Moteur & Échappement',
         desc: 'Reprog Stage 1/2, admission directe, ligne inox, valve active',
         // performance engine bay intake turbo
-        image: 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=400&h=300&fit=crop',
+        image: img3,
         options: [
           {
             id: 'stage1',
@@ -637,7 +654,7 @@ export const UPGRADE_CATEGORIES = [
         label: 'Châssis & Direction',
         desc: 'Barres anti-rapprochement, renforts, direction assistée variable',
         // strut tower brace bar in engine bay
-        image: 'https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=400&h=300&fit=crop',
+        image: img2,
         options: [
           {
             id: 'barre-av',
