@@ -6,14 +6,14 @@ import BookingModal from '../components/BookingModal';
 // ── Hero slideshow: Real African market cars (Wikimedia Commons, confirmed URLs)
 const HERO_IMAGES = [
   // Classic & everyday African market staples
+  { url: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1600&auto=format&fit=crop&q=80', pos: 'center 50%', label: 'Mercedes Classe C' },
+  { url: 'https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=1600&auto=format&fit=crop&q=80', pos: 'center 50%', label: 'Range Rover Sport' },
   { url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/80-89_Toyota_Land_Cruiser.jpg/1280px-80-89_Toyota_Land_Cruiser.jpg',                                                                                              pos: 'center 50%', label: 'Toyota Land Cruiser 80' },
   { url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/1997-1999_Toyota_Camry.jpg/1280px-1997-1999_Toyota_Camry.jpg',                                                                                                     pos: 'center 45%', label: 'Toyota Camry XV20' },
   // Modern premium cars
-  { url: 'https://images.unsplash.com/photo-1617469767052-7b461d823bea?w=1600&auto=format&fit=crop&q=80',                                                                                                                               pos: 'center 55%', label: 'BMW Série 5 Moderne' },
-  { url: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1600&auto=format&fit=crop&q=80',                                                                                                                                   pos: 'center 50%', label: 'Mercedes Classe C' },
-  { url: 'https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=1600&auto=format&fit=crop&q=80',                                                                                                                               pos: 'center 50%', label: 'Range Rover Sport' },
-  { url: 'https://images.unsplash.com/photo-1536700503-e30e08648d9c?w=1600&auto=format&fit=crop&q=80',                                                                                                                                   pos: 'center 60%', label: 'Toyota RAV4 Moderne' },
-  { url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Honda_Civic_EK_hatch_%2820221211%29.jpg/1280px-Honda_Civic_EK_hatch_%2820221211%29.jpg',                                                                          pos: 'center 50%', label: 'Honda Civic EK' },
+  { url: 'https://images.unsplash.com/photo-1617469767052-7b461d823bea?w=1600&auto=format&fit=crop&q=80',  pos: 'center 55%', label: 'BMW Série 5 Moderne' }
+  { url: 'https://images.unsplash.com/photo-1536700503-e30e08648d9c?w=1600&auto=format&fit=crop&q=80',  pos: 'center 60%', label: 'Toyota RAV4 Moderne' },
+  { url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Honda_Civic_EK_hatch_%2820221211%29.jpg/1280px-Honda_Civic_EK_hatch_%2820221211%29.jpg',  pos: 'center 50%', label: 'Honda Civic EK' },
 ];
 
 // Why-Us section panel — Toyota Probox, iconic African market workhorse
