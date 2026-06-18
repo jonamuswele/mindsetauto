@@ -340,7 +340,7 @@ export default function Home({ openBookingModal, setActiveTab }) {
               Un atelier complet,<br /><strong>dans votre rue.</strong>
             </motion.h2>
           </motion.div>
-
+      
           <motion.div 
             variants={staggerContainer} 
             initial="hidden" 
@@ -369,21 +369,22 @@ export default function Home({ openBookingModal, setActiveTab }) {
               {
                 title: 'Suspension & Direction',
                 desc: 'Amortisseurs, triangles, rotules, géométrie, crémaillère — tenue de route et confort retrouvés.',
-                icon: <Gauge size={24} />, // or <Car />, <SlidersHorizontal />
+                icon: <Gauge size={24} />,
                 color: '#0D9488'
               },
               {
                 title: 'Électricité Auto',
                 desc: 'Faisceaux, BCM, capteurs, alternateur, démarreur — diagnostic complet avec oscilloscope et valise multimarques.',
-                icon: <Zap size={24} />, // or <Bolt />
+                icon: <Zap size={24} />,
                 color: '#0D9488'
               },
               {
                 title: 'Transmission & Boîte',
                 desc: 'Boîte manuelle ou automatique, embrayage, différentiel, cardans — expertise précise et réparation sur mesure.',
-                icon: <Settings size={24} />, // or <Gear />
+                icon: <Settings size={24} />,
                 color: '#0D9488'
-              }]
+              }
+            ].map((s, i) => (
               <motion.div 
                 key={i}
                 variants={fadeUp}
