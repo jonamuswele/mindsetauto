@@ -10,7 +10,7 @@ export const UPGRADE_CATEGORIES = [
         id: 'sieges',
         label: 'Sièges & Housses',
         desc: 'Cuir, Alcantara, tissus techniques, chauffants/ventilés, maintien lombaire',
-        image: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=400&h=300&fit=crop',
+        image: 'https://www.pinterest.com/pin/3870349675086976/',
         options: [
           { id: 'cuir-nappa', label: 'Cuir Nappa', desc: 'Cuir pleine fleur premium, grain fin, toucher doux', image: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&h=400&fit=crop', features: ['Haut de gamme', 'Durable', 'Entretien facile'] },
           { id: 'cuir-alcantara', label: 'Cuir + Alcantara', desc: 'Assiettes Alcantara, contours cuir, look sport', image: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e7a1?w=600&h=400&fit=crop', features: ['Sportif', 'Respirant', 'Maintien latéral'] },
